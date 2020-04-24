@@ -1,8 +1,4 @@
-.container {
-    position: relative;
-    text-align: center;
-    color: black;
-  }
+
 /* i want to make "guess the word" responsive and center on the image. main goal is to make it over the image in a banner 
   .bottom-left {
     display: flex;
@@ -21,10 +17,50 @@
 
   .container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   h5 {
     display: flex;
     align-items: center;
   }
+
+  .meal1 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+/* cant get a backround image to appear */
+.meal1 {
+  margin-top: 20px;
+  background-image: url("Assets/Images/guess_the_word.png");
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.text {
+  background: rgb(0, 0, 0, 0.7);
+  width: 100%;
+  padding: 20px 40px;
+  color: white;
+}
+
+/* this didnt work but too scared to delete
+ .card-header, .card-body { 
+  display: flex;
+    justify-content: center;
+}*/
+
+ .container-2 { 
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px;
+}
+
+.container-3 {
+  display: flex;
+  justify-content: flex-end;
+}
