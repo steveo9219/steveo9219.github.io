@@ -1,0 +1,12 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 80px;
+    font-size: 15px;
+  }
