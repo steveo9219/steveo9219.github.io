@@ -3,10 +3,13 @@
     text-align: center;
     color: black;
   }
-
+/* i want to make "guess the word" responsive and center on the image. main goal is to make it over the image in a banner 
   .bottom-left {
+    display: flex;
+    justify-content: center;
     position: absolute;
     bottom: 8px;
     left: 80px;
     font-size: 15px;
-  }
+  } */
+
