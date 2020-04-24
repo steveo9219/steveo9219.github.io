@@ -12,4 +12,19 @@
     left: 80px;
     font-size: 15px;
   } */
+/* button wont line up with text box */
+  .btn {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+  }
 
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  h5 {
+    display: flex;
+    align-items: center;
+  }
