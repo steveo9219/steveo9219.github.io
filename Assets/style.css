@@ -14,10 +14,14 @@
 }*/
 
 .box {
-
     background-image: url(./Images/darksky.jpg);
     /* margin: 20px; */
     padding: 20px;
+}
+
+.jumbotron {
+  background-color: #bdbdbd;
+
 }
   .btn {
     display: flex;
