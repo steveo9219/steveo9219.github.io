@@ -37,16 +37,6 @@ h5 {
   justify-content: flex-end;
 }
 
-.imgleft {
-  display: flex;
-  justify-content: flex-start;
-}
-
-.imgright {
-  display: flex;
-  justify-content: flex-end;
-}
-
 .footer {
   background: #bdbdbd;
   height: 50px;
@@ -55,14 +45,14 @@ h5 {
 .banner {
   position: absolute;
   background: #bdbdbd;
-  width: 100%;
-  top: 75%;
+  width: 105%;
+  top: 85%;
 }
 .img-container {
   display: flex;
   justify-content: flex-start;
   position: relative;
   text-align: center;
-  color: white;
+  color: black;
   width: 200px;
 }
