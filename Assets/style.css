@@ -74,14 +74,14 @@
 }
 
 .footer {
-  background: gray;
+  background: #bdbdbd;
   height: 50px;
   
 }
 
 .banner {
   position: absolute;
-  background: gray;
+  background: #bdbdbd;
   width: 100%;
   top: 75%;
 }
@@ -94,3 +94,4 @@
   width: 200px;
 
 }
+
