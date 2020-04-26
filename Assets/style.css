@@ -9,6 +9,16 @@
     font-size: 15px;
   } */
 /* button wont line up with text box */
+/* .container { 
+  background-color: grey;
+}*/
+
+.box {
+
+    background-image: url(./Images/darksky.jpg);
+    /* margin: 20px; */
+    padding: 20px;
+}
   .btn {
     display: flex;
     justify-content: flex-start;
@@ -62,6 +72,7 @@
 .footer {
   background: gray;
   height: 50px;
+  
 }
 
 .banner {
@@ -79,7 +90,3 @@
   width: 200px;
 
 }
-
-
-
-
