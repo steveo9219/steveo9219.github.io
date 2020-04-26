@@ -1,23 +1,23 @@
-.box {
-    background-image: url(./Images/darksky.jpg);
-    /* margin: 20px; */
-    padding: 20px;
+body {
+  background-image: url(./Images/darksky.jpg);
+  padding: 20px;
+  background-repeat: repeat-y;
+  background-size: 100% 100%;
 }
 
 .jumbotron {
   background-color: #bdbdbd;
-
 }
-  .btn {
-    display: flex;
-    justify-content: flex-start;
-    margin: 10px;
-  }
+.btn {
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px;
+}
 
-  h5 {
-    display: flex;
-    align-items: center;
-  }
+h5 {
+  display: flex;
+  align-items: center;
+}
 
 .text {
   background: rgb(0, 0, 0, 0.7);
@@ -26,7 +26,7 @@
   color: white;
 }
 
- .container-2 { 
+.container-2 {
   display: flex;
   justify-content: flex-start;
   margin: 20px;
@@ -50,7 +50,6 @@
 .footer {
   background: #bdbdbd;
   height: 50px;
-  
 }
 
 .banner {
@@ -66,6 +65,4 @@
   text-align: center;
   color: white;
   width: 200px;
-
 }
-
