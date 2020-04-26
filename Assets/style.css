@@ -49,7 +49,37 @@
   justify-content: flex-end;
 }
 
-.rounded {
+.imgleft {
   display: flex;
   justify-content: flex-start;
 }
+
+.imgright {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer {
+  background: gray;
+  height: 50px;
+}
+
+.banner {
+  position: absolute;
+  background: gray;
+  width: 100%;
+  top: 75%;
+}
+.img-container {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 200px;
+
+}
+
+
+
+
