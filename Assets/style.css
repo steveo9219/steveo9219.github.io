@@ -1,5 +1,5 @@
 body {
-  background-image: url(./Images/darksky.jpg);
+  background-image: url(./Images/lightgraywallpaper.jpg);
   padding: 20px;
   background-repeat: repeat-y;
   background-size: 100% 100%;
@@ -46,7 +46,8 @@ h5 {
   position: absolute;
   background: #bdbdbd;
   width: 105%;
-  top: 85%;
+  top: 78%;
+  font-size: 20px;
 }
 .img-container {
   display: flex;
