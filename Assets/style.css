@@ -1,63 +1,63 @@
 main {
-  height: 100vh;
+	height: 100vh;
 }
 
 .jumbotron {
-  background-color: #bdbdbd;
+	background-color: #bdbdbd;
 }
 .btn {
-  display: flex;
-  justify-content: flex-start;
-  margin: 10px;
+	display: flex;
+	justify-content: flex-start;
+	margin: 10px;
 }
 
 h5 {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .text {
-  background: rgb(0, 0, 0, 0.7);
-  width: 100%;
-  padding: 20px 40px;
-  color: white;
+	background: rgb(0, 0, 0, 0.7);
+	width: 100%;
+	padding: 20px 40px;
+	color: white;
 }
 
 .container-2 {
-  display: flex;
-  justify-content: flex-start;
-  margin: 20px;
+	display: flex;
+	justify-content: flex-start;
+	margin: 20px;
 }
 
 .container-3 {
-  display: flex;
-  justify-content: flex-end;
+	display: flex;
+	justify-content: flex-end;
 }
 
 .footer {
-  background: #bdbdbd;
-  height: 50px;
+	background: #bdbdbd;
+	height: 50px;
 }
 
 .banner {
-  position: absolute;
-  background: #bdbdbd;
-  width: 105%;
-  top: 78%;
-  font-size: 20px;
+	position: absolute;
+	background: #bdbdbd;
+	width: 105%;
+	top: 78%;
+	font-size: 20px;
 }
 .img-container {
-  display: flex;
-  justify-content: flex-start;
-  position: relative;
-  text-align: center;
-  color: black;
-  width: 200px;
+	display: flex;
+	justify-content: flex-start;
+	position: relative;
+	text-align: center;
+	color: black;
+	width: 200px;
 }
 
 body {
-  background-image: url(./Images/lightgraywallpaper.jpg);
-  padding: 20px;
-  background-repeat: repeat-y;
-  background-size: 100% 100%;
+	background-image: url(./Images/lightgraywallpaper.jpg);
+	padding: 20px;
+	background-repeat: repeat-y;
+	background-size: 100% 100%;
 }

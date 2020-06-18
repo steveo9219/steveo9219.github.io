@@ -1,3 +1,5 @@
+**_updated 6-18-2020 my first project in my portfolio with my group project 1 i worked on with my team_**
+
 For my first portfolio design i have decided to go minimal but still keeping aesthetics looking nice!
 
 The navbar was for a site called bootswatch and the cards are from getbootsrap.com
@@ -12,6 +14,6 @@ i was able to create a sticky footer for my page and was able to get Javascript 
 
 i tried to commit as often as i could and it was nice to save my spot in diffrent times of creating my website, i could see how this could prove invaluable if on a bigger scale.
 
-URL to webpage: steveo9219.github.io
+URL to webpage: https://steveo9219.github.io
 
 Link to REPO: https://github.com/steveo9219/steveo9219.github.io
