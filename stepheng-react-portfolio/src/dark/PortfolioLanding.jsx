@@ -23,7 +23,7 @@ const SlideList = [
 const PortfolioLanding = () => {
 	let title = "About Me",
 		description =
-			'There are many variations of passages of Lorem Ipsum available, but the majority have suffered <a href="#">alteration</a> in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,';
+			"I am currently enrolled at The University of Texas at Austin Coding Bootcamp in the Full-Stack Web Developer Program.  I have always wanted to pursue a career in the tech industry and this is my first step to achieving that goal! I have always been fascinated by people that can code a website and create something from scratch.";
 	const PostList = BlogContent.slice(0, 3);
 	return (
 		<div className="active-dark">
@@ -45,14 +45,14 @@ const PortfolioLanding = () => {
 										<div className={`inner ${value.textPosition}`}>
 											{value.category ? <span>{value.category}</span> : ""}
 											<h1 className="title">
-												Hi, I’m Stephen Guzman<br />
+												Hi, I’m Stephen Guzman
+												<br />
 												<TextLoop>
 													<span>the Full Stack Web Developer</span>
-													<span>the  React Developer</span>
-													<span>the  Back-End Developer</span>
-													<span>the  Front-End Developer</span>
-                                                    <span>the Cool Guy</span>
-
+													<span>the React Developer</span>
+													<span>the Back-End Developer</span>
+													<span>the Front-End Developer</span>
+													<span>the Cool Guy</span>
 												</TextLoop>{" "}
 											</h1>
 											<h2>raised in Austin, Texas.</h2>
@@ -117,6 +117,54 @@ const PortfolioLanding = () => {
 			</div>
 
 			{/* End About Area */}
+			<div className="container">
+				<div className="row">
+					<div className="col-lg-12">
+						<iframe src="https://docs.google.com/document/d/e/2PACX-1vS9sj3bxGRyKqPdr7q4XgCMt0-C29XWbo4WebFNQhEw4gEyW0ac0nWr9LrmakA__g/pub?embedded=true"></iframe>
+					</div>
+				</div>
+			</div>
+
+			{/* Start Portfolio Area */}
+			<div id="portfolio" className="fix">
+				<div className="portfolio-area ptb--120 bg_color--1">
+					<div className="portfolio-sacousel-inner">
+						<div className="container">
+							<div className="row">
+								<div className="col-lg-12">
+									<div className="section-title text-center service-style--3 mb--30 mb_sm--0">
+										<h2 className="title">My Projects</h2>
+										<p>
+											In my Coding Bootcamp, I created three major group
+											projects in the course. A Github link to the code is
+											provided and a Heroku link to the live version of the
+											site. A detailed README is provided with every project.
+											Please explore my work and contact me with any questions!
+										</p>
+									</div>
+								</div>
+							</div>
+							<div className="row">
+								<PortfolioList
+									styevariation="text-center mt--40"
+									column="col-lg-4 col-md-6 col-sm-6 col-12"
+									item="6"
+								/>
+							</div>
+							<div className="row">
+								<div className="col-lg-12">
+									<div className="view-more-btn mt--60 mt_sm--30 text-center">
+										<a className="rn-button-style--2 btn-solid" href="/blog">
+											<span>View More</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			{/* End Portfolio Area */}
 
 			{/* Start Service Area  */}
 			<div id="service" className="fix">
@@ -145,44 +193,6 @@ const PortfolioLanding = () => {
 				</div>
 			</div>
 			{/* End Service Area  */}
-
-			{/* Start Portfolio Area */}
-			<div id="portfolio" className="fix">
-				<div className="portfolio-area ptb--120 bg_color--1">
-					<div className="portfolio-sacousel-inner">
-						<div className="container">
-							<div className="row">
-								<div className="col-lg-12">
-									<div className="section-title text-center service-style--3 mb--30 mb_sm--0">
-										<h2 className="title">My Latest Project</h2>
-										<p>
-											There are many variations of passages of Lorem Ipsum
-											available, but the majority have suffered alteration.
-										</p>
-									</div>
-								</div>
-							</div>
-							<div className="row">
-								<PortfolioList
-									styevariation="text-center mt--40"
-									column="col-lg-4 col-md-6 col-sm-6 col-12"
-									item="6"
-								/>
-							</div>
-							<div className="row">
-								<div className="col-lg-12">
-									<div className="view-more-btn mt--60 mt_sm--30 text-center">
-										<a className="rn-button-style--2 btn-solid" href="/blog">
-											<span>View More</span>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			{/* End Portfolio Area */}
 
 			{/* Start COntact Area */}
 			<div id="contact" className="fix">
