@@ -10,6 +10,7 @@ import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
 import ServiceList from "../elements/service/ServiceList";
 import BlogContent from "../elements/blog/BlogContent";
+import "./index.css";
 
 const SlideList = [
 	{
@@ -117,14 +118,30 @@ const PortfolioLanding = () => {
 			</div>
 
 			{/* End About Area */}
-			<div className="container">
-				<div className="row">
-					<div className="col-lg-12">
-						<iframe src="https://docs.google.com/document/d/e/2PACX-1vS9sj3bxGRyKqPdr7q4XgCMt0-C29XWbo4WebFNQhEw4gEyW0ac0nWr9LrmakA__g/pub?embedded=true"></iframe>
+			<div id="service" className="fix">
+				<div className="service-area creative-service-wrapper ptb--120 bg_color--5">
+					<div className="container">
+						<div className="row">
+							<div className="col-lg-12">
+								<div className="section-title text-center service-style--3 mb--30 mb_sm--0">
+									<h2 className="title">My Resume</h2>
+									<p>
+										This is my current resume. I touched many aspects of Full
+										Stack Web Development! I am always ready to learn more and
+										add to my resume!
+									</p>
+									<div class="containerresume">
+										<iframe
+											class="responsive-iframe"
+											src="https://docs.google.com/document/d/e/2PACX-1vS9sj3bxGRyKqPdr7q4XgCMt0-C29XWbo4WebFNQhEw4gEyW0ac0nWr9LrmakA__g/pub?embedded=true"
+										></iframe>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-
 			{/* Start Portfolio Area */}
 			<div id="portfolio" className="fix">
 				<div className="portfolio-area ptb--120 bg_color--1">
@@ -135,11 +152,12 @@ const PortfolioLanding = () => {
 									<div className="section-title text-center service-style--3 mb--30 mb_sm--0">
 										<h2 className="title">My Projects</h2>
 										<p>
-											In my Coding Bootcamp, I created three major group
-											projects in the course. A Github link to the code is
-											provided and a Heroku link to the live version of the
-											site. A detailed README is provided with every project.
-											Please explore my work and contact me with any questions!
+											In my Coding Bootcamp, I created{" "}
+											<b>three major group projects</b> in the course. A Github
+											link to the code is provided and a Heroku link to the live
+											version of the site. A detailed README is provided with
+											every project. Please explore my work and contact me with
+											any questions!
 										</p>
 									</div>
 								</div>
