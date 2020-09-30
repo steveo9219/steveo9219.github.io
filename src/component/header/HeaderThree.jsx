@@ -4,8 +4,11 @@ import { FiX, FiMenu } from "react-icons/fi";
 import Scrollspy from "react-scrollspy";
 
 const SocialShare = [
-	{ Social: <FaGithub />, link: "https://www.facebook.com/" },
-	{ Social: <FaLinkedinIn />, link: "https://www.linkedin.com/" },
+	{ Social: <FaGithub />, link: "https://github.com/steveo9219" },
+	{
+		Social: <FaLinkedinIn />,
+		link: "http://www.linkedin.com/in/stephen-guzman",
+	},
 ];
 class HeaderThree extends Component {
 	constructor(props) {
@@ -52,31 +55,32 @@ class HeaderThree extends Component {
 		}
 		const { logo, color = "default-color" } = this.props;
 		let logoUrl;
-		if (logo === "light") {
-			logoUrl = (
-				<img src="/assets/images/logo/logo-light.png" alt="Digital Agency" />
-			);
-		} else if (logo === "dark") {
-			logoUrl = (
-				<img src="/assets/images/logo/logo-dark.png" alt="Digital Agency" />
-			);
-		} else if (logo === "symbol-dark") {
-			logoUrl = (
-				<img
-					src="/assets/images/logo/logo-symbol-dark.png"
-					alt="Digital Agency"
-				/>
-			);
-		} else if (logo === "symbol-light") {
-			logoUrl = (
-				<img
-					src="/assets/images/logo/logo-symbol-light.png"
-					alt="Digital Agency"
-				/>
-			);
-		} else {
-			logoUrl = <img src="/assets/images/logo/logo.png" alt="Digital Agency" />;
-		}
+		//logo in the top right corner
+		// if (logo === "light") {
+		// 	logoUrl = (
+		// 		<img src="/assets/images/logo/logo-light.png" alt="Digital Agency" />
+		// 	);
+		// } else if (logo === "dark") {
+		// 	logoUrl = (
+		// 		<img src="/assets/images/logo/logo-dark.png" alt="Digital Agency" />
+		// 	);
+		// } else if (logo === "symbol-dark") {
+		// 	logoUrl = (
+		// 		<img
+		// 			src="/assets/images/logo/logo-symbol-dark.png"
+		// 			alt="Digital Agency"
+		// 		/>
+		// 	);
+		// } else if (logo === "symbol-light") {
+		// 	logoUrl = (
+		// 		<img
+		// 			src="/assets/images/logo/logo-symbol-light.png"
+		// 			alt="Digital Agency"
+		// 		/>
+		// 	);
+		// } else {
+		// 	logoUrl = <img src="/assets/images/logo/logo.png" alt="Digital Agency" />;
+		// }
 
 		return (
 			<header className={`header-area header-style-two header--fixed ${color}`}>
