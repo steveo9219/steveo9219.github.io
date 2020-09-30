@@ -88,14 +88,7 @@ class HeaderThree extends Component {
 						<nav className="mainmenunav d-lg-block ml--50">
 							<Scrollspy
 								className="mainmenu"
-								items={[
-									"home",
-									"about",
-									"service",
-									"portfolio",
-									"blog",
-									"contact",
-								]}
+								items={["about", "myresume", "myprojects", "contact"]}
 								currentClassName="is-current"
 								offset={-200}
 							>
@@ -103,10 +96,10 @@ class HeaderThree extends Component {
 									<a href="#about">About</a>
 								</li>
 								<li>
-									<a href="#service">Service</a>
+									<a href="#myresume">My Resume</a>
 								</li>
 								<li>
-									<a href="#portfolio">Portfolio</a>
+									<a href="#myprojects">My Projects</a>
 								</li>
 								<li>
 									<a href="#contact">Contact</a>

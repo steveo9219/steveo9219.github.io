@@ -95,7 +95,8 @@ const PortfolioLanding = () => {
 									<div className="thumbnail">
 										<img
 											className="w-100"
-											src="/assets/images/about/about-8.jpg"
+											// change image for ABOUT ME here
+											src="/assets/images/about/profile_picture.jpg"
 											alt="About Images"
 										/>
 									</div>
@@ -130,10 +131,10 @@ const PortfolioLanding = () => {
 										Stack Web Development! I am always ready to learn more and
 										add to my resume!
 									</p>
-									<div class="containerresume">
+									<div id="myresume" class="containerresume">
 										<iframe
 											class="responsive-iframe"
-											src="https://docs.google.com/document/d/e/2PACX-1vS9sj3bxGRyKqPdr7q4XgCMt0-C29XWbo4WebFNQhEw4gEyW0ac0nWr9LrmakA__g/pub?embedded=true"
+											src="https://docs.google.com/document/d/e/2PACX-1vQ8x2_2MQbzT6aicVDgBtRVx8Jzg5Zjc84Mrd7LGGXu7dJm0nInoFxOEESgIHHsdA/pub?embedded=true"
 										></iframe>
 									</div>
 								</div>
@@ -143,7 +144,7 @@ const PortfolioLanding = () => {
 				</div>
 			</div>
 			{/* Start Portfolio Area */}
-			<div id="portfolio" className="fix">
+			<div id="myprojects" className="fix">
 				<div className="portfolio-area ptb--120 bg_color--1">
 					<div className="portfolio-sacousel-inner">
 						<div className="container">
@@ -166,10 +167,12 @@ const PortfolioLanding = () => {
 								<PortfolioList
 									styevariation="text-center mt--40"
 									column="col-lg-4 col-md-6 col-sm-6 col-12"
-									item="6"
+									// change number of projects that appear
+									item="4"
 								/>
 							</div>
-							<div className="row">
+							{/* view more button here */}
+							{/*<div className="row">
 								<div className="col-lg-12">
 									<div className="view-more-btn mt--60 mt_sm--30 text-center">
 										<a className="rn-button-style--2 btn-solid" href="/blog">
@@ -177,40 +180,12 @@ const PortfolioLanding = () => {
 										</a>
 									</div>
 								</div>
-							</div>
+							</div> */}
 						</div>
 					</div>
 				</div>
 			</div>
 			{/* End Portfolio Area */}
-
-			{/* Start Service Area  */}
-			<div id="service" className="fix">
-				<div className="service-area creative-service-wrapper ptb--120 bg_color--5">
-					<div className="container">
-						<div className="row">
-							<div className="col-lg-12">
-								<div className="section-title text-center service-style--3 mb--30 mb_sm--0">
-									<h2 className="title">My Awesome Service</h2>
-									<p>
-										There are many variations of passages of Lorem Ipsum
-										available, but the majority have suffered alteration.
-									</p>
-								</div>
-							</div>
-						</div>
-						<div className="row creative-service">
-							<div className="col-lg-12">
-								<ServiceList
-									item="6"
-									column="col-lg-4 col-md-6 col-sm-6 col-12 text-left"
-								/>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			{/* End Service Area  */}
 
 			{/* Start COntact Area */}
 			<div id="contact" className="fix">

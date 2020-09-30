@@ -4,22 +4,30 @@ const PortfolioListContent = [
 	{
 		image: "image-1",
 		category: "HTML/CSS/JS/APIs.",
-		title: "Vacation Planner App",
+		title: "Vacation Planner App. Project 1",
+		livelink: "https://cb-group-6-project-1.github.io/travel-board/",
+		ghubrepo: "https://github.com/CB-Group-6-Project-1/travel-board",
 	},
 	{
 		image: "image-2",
-		category: "REACT/mySQL/Node.js/Express.js/Auth0.",
-		title: "Wedding Planner App",
+		category: "REACT/mySQL/Node.js/Express.js",
+		title: "Wedding Planner App. Project 2",
+		livelink: "https://wedding-planner-platform.herokuapp.com/",
+		ghubrepo: "https://github.com/wedding-planner-app/wedding-planner",
 	},
 	{
 		image: "image-3",
 		category: "REACT/MongoDB/Node.js/Express.js/Auth0.",
-		title: "TRAILme App",
+		title: "TRAILme App. Project 3",
+		livelink: "https://www.dictionary.com/browse/in--progress",
+		ghubrepo: "https://github.com/TRAILme-APP/TRAILme",
 	},
 	{
 		image: "image-4",
-		category: "Development",
-		title: "Getting tickets to the big show",
+		category: "Home Work Assignment",
+		title: "React Employee Directory",
+		livelink: "https://employee-directory-stephen-g.herokuapp.com/",
+		ghubrepo: "https://github.com/steveo9219/employee-directory-stephen-G",
 	},
 	{
 		image: "image-3",
@@ -50,16 +58,16 @@ class PortfolioList extends Component {
 								<div className="inner">
 									<p>{value.category}</p>
 									<h4>
-										<a href="/portfolio-details">{value.title}</a>
+										<a href={value.livelink}>{value.title}</a>
 									</h4>
 									<div className="portfolio-button">
-										<a className="rn-btn" href="/portfolio-details">
+										<a className="rn-btn" href={value.livelink}>
 											See the Live App
 										</a>
 									</div>
 									<div className="portfolio-button">
-										<a className="rn-btn" href="/portfolio-details">
-											See the Repo
+										<a className="rn-btn" href={value.ghubrepo}>
+											See the Github Repo
 										</a>
 									</div>
 								</div>
