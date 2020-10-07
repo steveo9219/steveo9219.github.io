@@ -49,11 +49,24 @@ const PortfolioLanding = () => {
 												Hi, I’m Stephen Guzman
 												<br />
 												<TextLoop>
-													<span>Full Stack Web Developer</span>
-													<span>React Developer</span>
-													<span>Back-End Developer</span>
-													<span>Front-End Developer</span>
-													<span>Cool Guy</span>
+													<span>
+														the Full Stack<br></br>
+														Web Developer
+													</span>
+													<span>
+														the React <br></br>Developer
+													</span>
+													<span>
+														the Back-End
+														<br></br>Developer
+													</span>
+													<span>
+														the Front-End
+														<br></br>Developer
+													</span>
+													<span>
+														the Cool <br></br>Guy
+													</span>
 												</TextLoop>{" "}
 											</h1>
 											<h2>raised in Austin, Texas.</h2>
@@ -133,7 +146,7 @@ const PortfolioLanding = () => {
 									</p>
 									<div id="myresume" className="containerresume">
 										<iframe
-											class="responsive-iframe"
+											className="responsive-iframe"
 											src="https://docs.google.com/document/d/e/2PACX-1vQRYEo2IvoT3S9nUHSn43Tt-LCZ_2EigHyvkyxEdUh1EfbKcqb09CyAAGIaKI76eHqFS0gGfFxlBY8v/pub?embedded=true"
 										></iframe>
 									</div>
