@@ -15,13 +15,13 @@ const PortfolioListContent = [
 		livelink: "https://wedding-planner-platform.herokuapp.com/",
 		ghubrepo: "https://github.com/wedding-planner-app/wedding-planner",
 	},
-	{
-		image: "image-3",
-		category: "REACT/MongoDB/Node.js/Express.js/Auth0.",
-		title: "TRAILme App. Project 3",
-		livelink: "https://www.dictionary.com/browse/in--progress",
-		ghubrepo: "https://github.com/TRAILme-APP/TRAILme",
-	},
+	// {
+	// 	image: "image-3",
+	// 	category: "REACT/MongoDB/Node.js/Express.js/Auth0.",
+	// 	title: "TRAILme App. Project 3",
+	// 	livelink: "https://www.dictionary.com/browse/in--progress",
+	// 	ghubrepo: "https://github.com/TRAILme-APP/TRAILme",
+	// },
 	{
 		image: "image-4",
 		category: "Home Work Assignment",
@@ -29,16 +29,16 @@ const PortfolioListContent = [
 		livelink: "https://employee-directory-stephen-g.herokuapp.com/",
 		ghubrepo: "https://github.com/steveo9219/employee-directory-stephen-G",
 	},
-	{
-		image: "image-3",
-		category: "Development",
-		title: "Getting tickets to the big show",
-	},
-	{
-		image: "image-4",
-		category: "Development",
-		title: "Getting tickets to the big show",
-	},
+	// {
+	// 	image: "image-3",
+	// 	category: "Development",
+	// 	title: "Getting tickets to the big show",
+	// },
+	// {
+	// 	image: "image-4",
+	// 	category: "Development",
+	// 	title: "Getting tickets to the big show",
+	// },
 ];
 
 class PortfolioList extends Component {

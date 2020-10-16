@@ -167,7 +167,7 @@ const PortfolioLanding = () => {
 										<h2 className="title">My Projects</h2>
 										<p>
 											In my Coding Bootcamp, I created{" "}
-											<b>three major group projects</b> in the course. A Github
+											<b>two major group projects</b> in the course. A Github
 											link to the code is provided and a Heroku link to the live
 											version of the site. A detailed README is provided with
 											every project. Please explore my work and contact me with
