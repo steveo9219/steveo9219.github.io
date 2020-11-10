@@ -67,7 +67,8 @@ class TabsTwo extends Component {
 											<ul>
 												<li>
 													<a href="/service">
-														Surgical/Endoscopy Technician
+														Surgical/Endoscopy Technician- 
+														I have 8 years of experience assisting various Doctors during emergency and elective Endoscopy procedures. In a procedure room it is crucial that I have exceptional communication with a variety of people with different backgrounds. We must work as a team to ensure the patient is taken care of regardless of our personal technical backgrounds. Over the years I have learned to adapt to ever changing situations and respond with creativity and critical thinking to solve many problems that can arise during a procedure.
 														<span> - HCA/ St. Davids Healthcare</span>
 													</a>{" "}
 													2012 - Current
