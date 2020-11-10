@@ -24,7 +24,7 @@ const SlideList = [
 const PortfolioLanding = () => {
 	let title = "About Me",
 		description =
-			"I am currently enrolled at The University of Texas at Austin Coding Bootcamp in the Full-Stack Web Developer Program.  I have always wanted to pursue a career in the tech industry and this is my first step to achieving that goal! I have always been fascinated by people that can code a website and create something from scratch.";
+			"I was enrolled at The University of Texas at Austin Coding Bootcamp in the Full-Stack Web Developer Program.  I have always wanted to pursue a career in the tech industry and this is my first step to achieving that goal! I have always been fascinated by people that can code a website and create something from scratch.";
 	const PostList = BlogContent.slice(0, 3);
 	return (
 		<div className="active-dark">
